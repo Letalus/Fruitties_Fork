@@ -30,6 +30,9 @@ kotlin {
             }
         }
     }
+
+    task("testClasses")
+
     listOf(
         iosX64(),
         iosArm64(),
